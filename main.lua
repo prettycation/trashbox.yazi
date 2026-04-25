@@ -194,7 +194,7 @@ local function adapter_script()
 	if not dir then
 		return nil
 	end
-	return path_join(dir, "adapter", "cli.py")
+	return path_join(dir, "assets", "cli.py")
 end
 
 local function command_success(cmd, args)
